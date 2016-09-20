@@ -34,6 +34,7 @@ public class _fa_pieChartView extends View implements ValueAnimator.AnimatorUpda
     /**
      * 圆弧颜色
      * 注意，目前的问题是，不能有重复的颜色，不然无法确定唯一index
+     * 【请自行添加 set方法】
      */
     private String[] arcColors = new String[]{"#FD9033", "#F98AEC", "#FF3564", "#92BEFF", "#ABEA3D"};
     /**
